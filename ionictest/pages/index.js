@@ -82,6 +82,26 @@ export default function Home(initialData) {
       </Row>
 
   </Row>
+  <Row> 
+  <Col>
+    <div>
+      <h4>Ready to start?</h4>
+      <h4>Sign up for free today.</h4>
+    </div>
+  </Col>
+  <Col>
+    <div>
+    <div className="mb-2">
+      <Button  className="heroBtn1" size="lg">
+        TRY IT FREE
+      </Button>
+      <Button className="heroBtn2" size="lg">
+        DOWNLOAD
+      </Button>
+  </div>
+    </div>
+  </Col>
+  </Row>
 
   </Container>
     </SimpleLayout>
