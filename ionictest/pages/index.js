@@ -106,15 +106,28 @@ export default function Home(initialData) {
   </div>
   </Row>
   <Row>
-  <div className="d-flex flex-column h-100">
+  <div className="d-flex flex-column h-100 footer">
 
 <footer className="w-100 py-4 flex-shrink-0">
     <div className="container py-4">
         <div className="row gy-4 gx-5">
-            <div className="col-lg-4 col-md-6">
-                <h5 className="h1 text-white">FB.</h5>
-                <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                <p className="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a className="text-primary" href="#">Bootstrapious.com</a></p>
+        <div className="col-lg-2 col-md-6">
+                <h5 className="text-white mb-3">Quick links</h5>
+                <ul className="list-unstyled text-muted">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Get started</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div className="col-lg-2 col-md-6">
+                <h5 className="text-white mb-3">Quick links</h5>
+                <ul className="list-unstyled text-muted">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Get started</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
             </div>
             <div className="col-lg-2 col-md-6">
                 <h5 className="text-white mb-3">Quick links</h5>
@@ -137,10 +150,20 @@ export default function Home(initialData) {
             <div className="col-lg-4 col-md-6">
                 <h5 className="text-white mb-3">Newsletter</h5>
                 <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              
+                <div class="container-fluid">
+                  <div class="row d-flex ">
+                      <div class="">
+                          <input type="email" class="form-control py-3" id="inp1" placeholder="Enter email address"/> 
+                      </div>
+                   <div class="">
+                     <button class="btn text-white px-4 py-2"> OK </button>
+                  </div>
+                </div>
+            </div>
             </div>
         </div>
     </div>
+
 </footer>
 </div>
 
