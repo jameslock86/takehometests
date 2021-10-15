@@ -18,7 +18,8 @@ export default function Home(initialData) {
         TRY IT FREE
       </Button>
       <Button className="heroBtn2" size="lg">
-        DOWNLOAD
+        DOWNLOAD words
+        
       </Button>
   </div>
     </Col>
